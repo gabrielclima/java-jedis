@@ -32,9 +32,6 @@ blockquote {
   color: #808080;
   font-style: italic;
 }
-blockquote p:first-child {
-  margin-top: 0;
-}
 hr.small {
   max-width: 100px;
   margin: 15px auto;
@@ -55,6 +52,15 @@ hr.small {
 .main-explain-area {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 15px inherit;
+}
+
+.get-started-wrap {
+  text-align: center;
+}
+.get-started-btn {
+  padding: 15px 30px;
+  font-size: 26px;
+  margin-top: 10px;
 }
 
 .hideme {
@@ -80,18 +86,14 @@ img::-moz-selection {
   background: transparent;
 }
 
-img {
-  max-width: 100%;
+#paypalbtn {
+  text-align: center;
 }
 
-.disqus-comments {
-  margin-top: 30px;
-}
-
-@media only screen and (min-width: 768px) {
-  .disqus-comments {
-    margin-top: 40px;
-  }
+#paypalbtn a {
+  text-decoration: none;
+  font-size: 1.2em;
+  font-family: arial;
 }
 
 /* --- Navbar --- */
@@ -217,7 +219,7 @@ img {
 @media only screen and (min-width: 768px) {
   .navbar-custom .nav .navlinks-container {
     text-align: center;
-  }  
+  }
   .navbar-custom .nav .navlinks-container:hover {
     background: #eee;
   }
@@ -476,6 +478,16 @@ footer .theme-by {
   display: block;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+}
+
+.blog-comments {
+  margin-top: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .blog-comments {
+    margin-top: 40px;
+  }
 }
 
 /* --- Pager --- */
