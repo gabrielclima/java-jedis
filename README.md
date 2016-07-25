@@ -1,3 +1,3 @@
-# Become a Java Jedi
+# Beautiful Jekyll source code
 
-"Become a Java Jedi" é um grupo que nasceu da ideia de um grupo de estudos para certificações Java. A ideia é fazer encontros presenciais para discutir de forma estruturada todos os tópicos da OCAJP, fazendo desafios, exercícios e tentando aplicar os conceitos em um projeto open-source para outras pessoas poderem aprender. 
+This is the source code of Beautiful Jekyll that is responsible for generating [the demo website for this theme](http://deanattali.com/beautiful-jekyll).  To learn how to build a similarly awesome looking website in minutes, go to the [main Beautiful Jekyll page](https://github.com/daattali/beautiful-jekyll#readme).
