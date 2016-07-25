@@ -14,7 +14,7 @@ baseurl: "/beautiful-jekyll"
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Beautiful Jekyll
+title: Become a Java Jedi
 
 # Short description of your site
 description: Quickly build a beautiful Jekyll website
@@ -23,7 +23,7 @@ description: Quickly build a beautiful Jekyll website
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+avatar: "/img/octo-jedi.jpg"
 
 # List of links in the navigation bar
 navbar-links:
@@ -32,8 +32,7 @@ navbar-links:
     - Getting started: "getstarted"
     - Featured users: "featured-users"
     - Project page: "https://github.com/daattali/beautiful-jekyll#readme"
-  About me: "http://deanattali.com"
-
+  
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
@@ -46,7 +45,7 @@ author:
   twitter: daattali
   linkedin: "pub/dean-attali/8/946/143"
   stackoverflow: "users/3943160/daattali"
- 
+
 # Select which links to show in the footer
 footer-links-active:
   rss: false
@@ -86,7 +85,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts 
+      comments: true  # add comments to all blog posts
       show-share: true # add sharing buttons to all blog posts
   -
     scope:
